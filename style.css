@@ -1,0 +1,85 @@
+html {
+    font-family: helvetica;
+}
+
+#topMenuBar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 3rem;
+    background: black;
+    z-index: 1;
+}
+
+#btnContain {
+    margin: 8px auto;
+    display: flex;
+    width: 60rem;
+    height: 2rem;
+    justify-content: space-between;
+    /*   border: 1px solid white; */
+}
+
+.topMenuBtn {
+    width: 15rem;
+    color: white;
+    background: black;
+    height: 2rem;
+}
+
+#topMenuHome {
+    background: black;
+    color: white;
+}
+
+#sideMenu {
+    border: 1px solid black;
+    width: 10rem;
+    height: 20rem;
+    margin: 1rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1rem;
+    left: 30%;
+}
+
+#mainCont {
+    border: 1px solid black;
+    width: 30rem;
+    height: 69rem;
+    margin: 1rem 0rem;
+    padding: 10px;
+}
+
+#sideAndMain {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid black;
+}
+
+#mainCont {
+    /*   display: list-item; */
+    background: lightgray;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.mainContainers {
+    border: 1px dashed black;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+}
+
+#mC2, #mC3, #mC4 {
+    visibility: hidden;
+}
+
+#mC1 {
+    visibility: visible;
+}
